@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="30938e48-a6ee-4bf3-8698-b0dc78f68f06" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53445/Luu_Product.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Luu_Product.xsd" MetadataType="Schema" ID="67a59e24-1e5c-4226-87d9-46467e3c0c77" SourceId="1" SourceUrl="http://localhost:53445/Luu_Product.svc?xsd=xsd2" />
+    <MetadataFile FileName="Luu_Product.wsdl" MetadataType="Wsdl" ID="7c23bd65-26d9-45c8-8fa9-c11a0eb72727" SourceId="1" SourceUrl="http://localhost:53445/Luu_Product.svc?wsdl" />
+    <MetadataFile FileName="Luu_Product.disco" MetadataType="Disco" ID="3f46445c-3e85-464f-95e0-b86b9617b7ab" SourceId="1" SourceUrl="http://localhost:53445/Luu_Product.svc?disco" />
+    <MetadataFile FileName="Luu_Product1.xsd" MetadataType="Schema" ID="8e58660b-da08-4841-92df-517b31e3bce2" SourceId="1" SourceUrl="http://localhost:53445/Luu_Product.svc?xsd=xsd0" />
+    <MetadataFile FileName="Luu_Product2.xsd" MetadataType="Schema" ID="46838984-e3b0-4ad7-877f-249e198c00e9" SourceId="1" SourceUrl="http://localhost:53445/Luu_Product.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
